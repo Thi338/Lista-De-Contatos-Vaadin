@@ -1,4 +1,4 @@
-package br.com.thiagocsilva.example;
+package br.com.thiagocsilva.ui;
 
 import com.vaadin.flow.component.dependency.NpmPackage;
 import com.vaadin.flow.component.page.AppShellConfigurator;

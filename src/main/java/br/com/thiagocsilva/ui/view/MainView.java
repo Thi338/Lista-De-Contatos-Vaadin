@@ -1,4 +1,4 @@
-package br.com.thiagocsilva.example;
+package br.com.thiagocsilva.ui.view;
 
 import com.vaadin.flow.component.notification.Notification;
 import jakarta.inject.Inject;
@@ -17,15 +17,13 @@ import com.vaadin.flow.router.Route;
 @Route("")
 public class MainView extends VerticalLayout {
 
-    @Inject
-    GreetService greetService;
 
     public MainView() {
         TextField textField = new TextField("Your name");
         textField.addThemeName("bordered");
 
         Button button = new Button("Say hello", e -> {
-            String greeting = greetService.greet(textField.getValue());
+            String greeting = "Hello, Thiago!";
             Notification.show(greeting);
         });
 

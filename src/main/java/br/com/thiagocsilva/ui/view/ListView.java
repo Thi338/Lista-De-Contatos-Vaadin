@@ -1,4 +1,4 @@
-package br.com.thiagocsilva.example;
+package br.com.thiagocsilva.ui.view;
 
 import br.com.thiagocsilva.data.entity.Contact;
 import com.vaadin.flow.component.Component;
